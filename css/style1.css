@@ -1,0 +1,470 @@
+
+body{
+  margin:0;
+  padding: 0;
+  background: #fafafa;
+  /* font-family: 'Montserrat', sans-serif; */
+
+}
+.top-social-container{
+  text-align: center;
+  background-color: #fccb92;
+
+}
+
+.top-social-icons{
+  color: black;
+  font-size: 20px;
+  margin:8px;
+}
+.org-logo{
+  margin: 20px;
+}
+
+#nav-section{
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-link{
+  color:black!important;
+  margin-right: 12px;
+  margin-top:2px;
+  font-size: 20px;
+}
+a.nav-link:hover{
+  border-bottom: 2px solid #f58220;
+
+}
+.navbar-nav{
+  margin-bottom: 0px;
+  padding-bottom: 0%;
+}
+
+.container{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.story-box h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  font-size: 20px;
+  line-height:1.5;
+  color:rgb(35,32,32);
+}
+.story-box-left{
+height: 400px;
+background:white;
+width:100%;
+position: relative;
+z-index: 1;
+left:200px;
+top:50px;
+overflow: hidden;
+padding:20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 14px;
+line-height: 30px;
+color:rgb(102,102,102)
+
+}
+.story-box-right{
+height: 400px;
+background:white;
+width:100%;
+position: relative;
+z-index: 1;
+right:200px;
+top:200px;
+overflow: hidden;
+padding:20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 14px;
+line-height: 30px;
+color:rgb(102,102,102)
+
+}
+.pledge{
+  text-transform: lowercase;
+}
+.story-image img{
+  width: 100%;
+  height: 100%;;
+}
+
+.footer-icons{
+  color: white!important;
+  font-size: 50px;
+  margin:10px;
+}
+
+/*-------------Achievements----------------*/
+
+.img-thumbnail{
+  margin-right: 80px;
+  margin-bottom: 20px;
+
+}
+.img-thumbnail a{
+  text-decoration: none;
+}
+.img-hero{
+   object-fit: fill;
+  max-height: 200px !important;
+
+}
+@media (max-width:768px){
+  .img-hero{
+
+    max-height: 100%!important;
+
+
+  }
+}
+
+@media (max-width:480px){
+  .trigger-popup{
+
+    max-height: 100%!important;
+
+
+  }
+}
+
+
+/* Popup box BEGIN */
+.hover_bkgr{
+  background:rgba(0,0,0,.4);
+  cursor:pointer;
+  display:none;
+  height:100%;
+  position:fixed;
+  text-align:center;
+  top:0;
+  width:100%;
+  z-index:10000;
+  overflow:auto;
+}
+.hover_bkgr > div {
+  background-color: #fff;
+  box-shadow: 10px 10px 60px #555;
+  display: inline-block;
+  height: auto;
+  max-width: 800px;
+  min-height: 100px;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 8px;
+  padding: 15px 5%;
+  margin-top: 50px;
+
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.popupCloseButton {
+
+  display: inline-block;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color:white;
+}
+.popupCloseButton:hover {
+  color:red;
+}
+
+/* Popup box BEGIN */
+
+
+
+/*---------Contact us ------------*/
+/* Style inputs with type="text" and textareas */
+
+
+.contact-form{
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.form-control,textarea{
+  background:none;
+  border: none;
+  border-bottom: 1px solid #f58220;
+}
+
+label{
+  font-weight: bold;
+  font-size: 17px;
+  margin-top:10px;
+}
+.contact-container{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.send-msg{
+  margin-top: 20px;
+  margin-left:10px;
+}
+.contact-info{
+  position: absolute;
+  top:200px;
+  left:300px;
+  color:rgb(255,255,255,0.9);
+  font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+}
+i{
+  margin:20px;
+}
+
+.contact-info p{
+  margin-left:50px;
+}
+.cover{
+  height: 100%;
+  width: 98.5%;
+  background:rgba(0,0,0,0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 2;
+
+}
+.footer-sec{
+  background-color: #141414!important;
+  margin-top:0;
+}
+.footer-distributed{
+
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
