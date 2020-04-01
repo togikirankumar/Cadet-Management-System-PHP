@@ -45,5 +45,8 @@ NOTE: For admin login, username: admin password: admin
 ## Delete Cadet's information
 ![](Images_sms/delete.png)
 
+## Database MySql
+![](Images_sms/database.png)
+
 ## Main Page
 ![](Images_sms/mainpage.png)
